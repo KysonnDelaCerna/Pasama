@@ -1,0 +1,49 @@
+body {
+    overflow-x: hidden;
+}
+
+/* colors */
+:root {
+    --violet: #2e266d;
+    --orange: #ffbb33;
+    --yellow: #f7e135;
+}
+
+.bg-violet {
+    background-color: var(--violet);
+}
+
+.text-violet {
+    color: var(--violet);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.spacer {
+    aspect-ratio: 960/270;
+}
+
+.screen {
+    aspect-ratio: 960/540;
+}
+
+.blob {
+    aspect-ratio: 300/300;
+}
+
+.svg {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.divider {
+    background-image: url("/assets/images/divider.svg");
+}
+
+.blobber {
+    background-image: url("/assets/images/blob.svg");
+}
