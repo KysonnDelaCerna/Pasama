@@ -41,9 +41,9 @@ body {
 }
 
 .divider {
-    background-image: url("assets/images/divider.svg");
+    background-image: url("../images/divider.svg");
 }
 
 .blobber {
-    background-image: url("assets/images/blob.svg");
+    background-image: url("../images/blob.svg");
 }
